@@ -1,0 +1,55 @@
+funktioncall at modul X + 77C
+
+ɘəəɘɘəəɚɛɛɛɛɛɛɛɚəəəɘɚəɚ:ɚɚəəɘəəɘəəɘɚɛɛɛɛəɘɛɛɚɛɘ+77c
+eax+44 contais all tank posi x adresses
+
+	 AoB 1: D9 58 44 0F B6 85 27 FF FF FF 85 C0 74 43 8B 85 28 FF FF FF D9 40 44 D9 05 C8 71 D8 2D 89 85 18 FF FF FF DF F1 DD D8 76 0C C7 85 14 FF FF FF 2D 00 00 00 EB 0A C7 85 14 FF FF FF D3 FF FF FF 8B 8D 14 FF FF FF 8B 85 18 FF FF FF 89 88 84 00 00 00 8B 8D 48 FF FF FF 8B C1 41 89 8D 48 FF FF FF 83 EC 08 50 57 8B 07 90 90 90 FF 50 74
+2F8C2C7C AoB 2: D9 58 44 0F B6 85 27 FF FF FF 85 C0 74 43 8B 85 28 FF FF FF D9 40 44 D9 05 F0 76 90 2E 89 85 18 FF FF FF DF F1 DD D8 76 0C C7 85 14 FF FF FF 2D 00 00 00 EB 0A C7 85 14 FF FF FF D3 FF FF FF 8B 8D 14 FF FF FF 8B 85 18 FF FF FF 89 88 84 00 00 00 8B 8D 48 FF FF FF 8B C1 41 89 8D 48 FF FF FF 83 EC 08 50 57 8B 07 90 90 90 FF 50 74
+	 Aob 3: D9 58 44 0F B6 85 27 FF FF FF 85 C0 74 43 8B 85 28 FF FF FF D9 40 44 D9 05 70 42 EE 2E 89 85 18 FF FF FF DF F1 DD D8 76 0C C7 85 14 FF FF FF 2D 00 00 00 EB 0A C7 85 14 FF FF FF D3 FF FF FF 8B 8D 14 FF FF FF 8B 85 18 FF FF FF 89 88 84 00 00 00 8B 8D 48 FF FF FF 8B C1 41 89 8D 48 FF FF FF 83 EC 08 50 57 8B 07 90 90 90 FF 50 74
+
+
+
+
+
+Codeinjection:
+
+push ebx			//save ebx on stack
+push edi			//save edi on stack
+push esi			//save esi on stack
+
+mov edi, addrCounterVar		//copy array index address in edi
+cmp [edi],8			//compare
+jb next				//jump over counter reset
+mov [edi], 0			//reset counter 
+next:
+mov esi, addrVar1Addr		//load "array" base
+mov ebx, edi			//save array index var address
+mov edi, [edi]			//load counter value
+mov edi, addrCounterVar		//copy array index address in edi
+inc [edi]			//increment array index
+
+pop esi				//restore esi from stack
+pop edi				//restore edi from stack
+pop ebx				//restore ebx from stack
+
+original instructions....	//execute original instructutions
+
+jump original			//jump back to the original code
+
+addrArrayIndexVar
+addrVar1
+addrVar2
+addrVar3
+addrVar4
+addrVar5
+addrVar6
+addrVar7
+addrVar8
+
+
+
+original:
+
+
+
+

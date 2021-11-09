@@ -1,0 +1,10 @@
+Object:		0x39915D20
+
+MouseDown:	0x314D2CA0
+Offset 		0x820
+
+lahsas tmtich mal was teste xD vielleicht habe ich das ja verstnden
+warte
+hatten wir eig die richtrige adresse vorhin? kp
+wir hatten von maus enter ist  richtig?
+ja

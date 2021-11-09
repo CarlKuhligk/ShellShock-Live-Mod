@@ -1,0 +1,2 @@
+C:\Users\Carl Kuhligk\Documents\CheatEngine\01 - ShellShock\GUI_Test\Debug\GUI_Test.exe
+C:\Users\Carl Kuhligk\Documents\CheatEngine\01 - ShellShock\GUI_Test\Debug\GUI_Test.pdb
