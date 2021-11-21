@@ -1,0 +1,94 @@
+﻿  Aimer.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Aimer.cpp(44,21): warning C4805: "!=": unsichere Kombination von Typ "int" mit Typ "bool" in einer Operation
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Aimer.cpp(50,41): warning C4805: "==": unsichere Kombination von Typ "int" mit Typ "bool" in einer Operation
+  CollisionMatrix.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+  LineCollider 2D.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\LineCollider 2D.cpp(68,21): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  Main.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+  Memory.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Memory.cpp(153,32): warning C4838: Konvertierung von "int" zu "DWORD" erfordert eine einschränkende Konvertierung
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Memory.cpp(162,32): warning C4838: Konvertierung von "int" zu "DWORD" erfordert eine einschränkende Konvertierung
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Memory.cpp(176,31): warning C4838: Konvertierung von "int" zu "DWORD" erfordert eine einschränkende Konvertierung
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Memory.cpp(262,22): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  Overlay.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+  Player.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+  Game.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(13,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(40,22): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(82,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(104,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(171,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(174,13): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(338,21): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(381,17): warning C4553: "==": Ergebnis des Ausdrucks nicht verwendet. War "=" gemeint?
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(416,21): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(432,36): warning C4244: "=": Konvertierung von "float" in "LONG", möglicher Datenverlust
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(433,45): warning C4244: "=": Konvertierung von "float" in "LONG", möglicher Datenverlust
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(439,21): warning C4244: "return": Konvertierung von "float" in "int", möglicher Datenverlust
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(497,24): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(519,22): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(523,24): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Game.cpp(531,24): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  Point2.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+  PolyLineCollider2D.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\PolyLineCollider2D.cpp(43,21): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  Projectile.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+  Segment.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Segment.cpp(168,43): warning C4804: "<=": unsichere Verwendung des Typs "bool" in einer Operation
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Segment.cpp(169,43): warning C4804: "<=": unsichere Verwendung des Typs "bool" in einer Operation
+  Terrain.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+  Vector2.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.cpp(80,32): warning C4244: "=": Konvertierung von "float" in "int", möglicher Datenverlust
+  WeaponSelector.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+  WindIndicator.cpp
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
+D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\WindIndicator.cpp(22,15): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+  Code wird generiert...
+  ExShellShockAutpRuler.vcxproj -> D:\GitHub\ShellShockLiveRuler\ExShellShockRuler\Debug\ExShellShockDigitalRuler.exe

@@ -1,5 +1,0 @@
-﻿  Projectile.cpp
-C:\Users\Carl Kuhligk\Documents\CheatEngine\01 - ShellShock\ExShellShockAutpRuler\Vector2.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "Direction", wenn keine Variable deklariert wurde
-C:\Users\Carl Kuhligk\Documents\CheatEngine\01 - ShellShock\ExShellShockAutpRuler\Projectile.h(14,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjEventType", wenn keine Variable deklariert wurde
-C:\Users\Carl Kuhligk\Documents\CheatEngine\01 - ShellShock\ExShellShockAutpRuler\Projectile.h(23,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "ProjectileEvent", wenn keine Variable deklariert wurde
-  ExShellShockAutpRuler.vcxproj -> C:\Users\Carl Kuhligk\Documents\CheatEngine\01 - ShellShock\ExShellShockAutpRuler\Debug\ExShellShockAutpRuler.exe
