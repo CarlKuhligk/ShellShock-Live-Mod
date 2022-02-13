@@ -69,12 +69,13 @@ Now its possible to read all nesessary values to calculate the projectiles.
 ***
 
 Some things that can be implemented:
-1. [] create all projectiles for all the different flight behaviors (currently i have only the "normal" behavior implemented, multiple traces are possible)
-2. [] enable auto-aim to deal maximum damage
-3. [] finish implementing bouncing
-4. [] find obstacles with CheatEngine
-5. [] take obstacles in to account (rebounce)
-6. [] find blackholes with CheatEngine
-7. [] take blackholes in to account
-8. [] find portals with CheatEngine
-9. [] take portals in to account
+1. [ ] create all projectiles for all the different flight behaviors (currently i have only the "normal" behavior implemented, multiple traces are possible)
+2. [ ] enable auto-aim to deal maximum damage
+3. [ ] finish implementing bouncing
+4. [ ] find obstacles with CheatEngine
+5. [ ] take obstacles in to account (rebounce)
+6. [ ] find blackholes with CheatEngine
+7. [ ] take blackholes in to account
+8. [ ] find portals with CheatEngine
+9. [ ] take portals in to account
+10. [ ] implement speedhack (possible with cheatengine ;))
