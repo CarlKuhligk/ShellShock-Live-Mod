@@ -1,4 +1,6 @@
 ## ShellShockLiveRuler
+![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/01%20-%20Screenshoot.PNG?raw=true)
+
 This program creates an overlay showing the map boundaries and the projectile trail. It takes wind in to account and corrects the trace.
 It also shows some techniques to access some ingame variabels.
 Its not possible to find static pointers to the players object. Therefore other methods are needed to finde the right memory.
@@ -60,9 +62,6 @@ Now its possible to read all nesessary values to calculate the projectiles.
 ![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/03%20-%20Screenshoot.PNG?raw=true)
 
 ***
-
-## Digital Ruler
-![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/01%20-%20Screenshoot.PNG?raw=true)
 
 ## Gamememory-Dependencys
 ![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/Overview%20of%20game%20dependencys.png?raw=true)
