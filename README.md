@@ -1,24 +1,21 @@
-### ShellShockLiveRuler
-This program creates an overlay showing the map boundaries and the projectile trail.
-
-## Digital Ruler
-![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/01%20-%20Screenshoot.PNG?raw=true)
-
-## Gamememory-Dependencys
-![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/Overview%20of%20game%20dependencys.png?raw=true)
-
-This Project shows some techniques to access some game variabels.
+## ShellShockLiveRuler
+This program creates an overlay showing the map boundaries and the projectile trail. It takes wind in to account and corrects the trace.
+It also shows some techniques to access some ingame variabels.
 Its not possible to find static pointers to the players object. Therefore other methods are needed to finde the right memory.
+
 The following steps are implemented:
 
 ***
 
 # 1. Patternscan
-> This function/methode is called every time the game updates the players object.
+> The function/methode i'm aming at, is called every time the game updates the players object.
 > The address of each player object is handled in it.
 > This function is dynamicly generated. If the game is lunched, this function/methode is not present.
 > To generate it, its nesessary to start the firing mode or an other mode.
-> The pattern `{ 0x30, 0x9A8, 0x00, 0x1C, 0x04, 0x188 };`
+> The pattern:
+```c++
+{ 0x30, 0x9A8, 0x00, 0x1C, 0x04, 0x188 };
+```
 
 ***
 
@@ -62,3 +59,23 @@ Now its possible to read all nesessary values to calculate the projectiles.
 ![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/02%20-%20Screenshoot.PNG?raw=true)
 ![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/03%20-%20Screenshoot.PNG?raw=true)
 
+***
+
+## Digital Ruler
+![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/01%20-%20Screenshoot.PNG?raw=true)
+
+## Gamememory-Dependencys
+![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/Overview%20of%20game%20dependencys.png?raw=true)
+
+***
+
+Some things that can be implemented:
+1. [] create all projectiles for all the different flight behaviors (currently i have only the "normal" behavior implemented, multiple traces are possible)
+2. [] enable auto-aim to deal maximum damage
+3. [] finish implementing bouncing
+4. [] find obstacles with CheatEngine
+5. [] take obstacles in to account (rebounce)
+6. [] find blackholes with CheatEngine
+7. [] take blackholes in to account
+8. [] find portals with CheatEngine
+9. [] take portals in to account
