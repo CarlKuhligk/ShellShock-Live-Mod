@@ -1,29 +1,26 @@
-## ShellShockLiveRuler
-![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/01%20-%20Screenshoot.PNG?raw=true)
+# ShellShock Live Ruler
 
-This program creates an overlay showing the map boundaries and the projectile trail. It takes wind in to account and corrects the trace.
-It also shows some techniques to access some ingame variabels.
-Its not possible to find static pointers to the players object. Therefore other methods are needed to finde the right memory.
+> [!NOTE]
+> The project is inactive, and after numerous game updates, the pattern scan is likely to no longer function and would need to be updated.
 
-The following steps are implemented:
+![](./doc/img/ingame%202.PNG?raw=true)
+
+The project originated from experimenting with Cheat Engine. The game ShellShock Live served as a learning platform, as it is quite simple and lacks cheat protection. However, it quickly became apparent that reading addresses wasn't as straightforward as expected. ShellShock utilizes the Unity engine, and additionally, a obfuscation technique was applied to obscure the names of variables and functions. Furthermore, I was unable to reliably find a pointer to player data using the usual pointer scan method. Nevertheless, I did discover a function that processes player addresses. With this insight, I then wrote a small assembly code that writes the addresses to a known address space upon each function call. With these addresses, all player data can be intercepted. Originally, it was only about reading the data and not about creating cheats to precisely determine the impact points of projectiles. However, I found it interesting to calculate collisions and trajectories provisionally on my own.
 
 ***
 
-# 1. Patternscan
-> The function/methode i'm aming at, is called every time the game updates the players object.
-> The address of each player object is handled in it.
-> This function is dynamicly generated. If the game is lunched, this function/methode is not present.
-> To generate it, its nesessary to start the firing mode or an other mode.
-> The pattern:
+## How it works
+The function I'm targeting is called every time the game updates the player's object. The address of each player object is handled within it. This function is dynamically generated. If the game is launched, this function is not present. To generate it, it's necessary to start the firing mode or another mode. After this is done, we could find the memory address of this function by searching for the following pattern in memory:
+
+### 1. Patternscan
 ```c++
-{ 0x30, 0x9A8, 0x00, 0x1C, 0x04, 0x188 };
+pattern = { 0x30, 0x9A8, 0x00, 0x1C, 0x04, 0x188 }
 ```
 
-***
 
-# 2. Codeinjection
-> To extract thoes player addresses, a very simple code is injected.
-> ![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/Overview%20of%20injected%20code%20for%20extrating%20TankMC%20addresses.png?raw=true)
+### 2. Codeinjection
+After the address of the function has been found, the function can be modified so that it initially jumps to a new location in memory, where the code to store the player addresses is executed. Afterwards, the original function is executed.
+![](./doc/img/extrating%20TankMC%20addresses.png?raw=true)
 
 ```c++
 // Code to Inject Size 55 Bytes
@@ -53,29 +50,29 @@ The following steps are implemented:
 	};
 ```
 
+### 3. Read the extracted addresses
+
+The extracted addresses are just the tip of the iceberg. In exploring the structure of the game in memory, the following connections have become visible. On the right side of the graphic are custom classes created within the 'ruler/mod/cheat,' where most arrows terminate. The light blue objects are those extracted from the game.
+
+![](./doc/img/game%20dependencys.png?raw=true)
+
+### 4. Show results
+With this information, the behavior and environment of the game can now be reconstructed and displayed very accurately. The player can now see in advance exactly where their shot will land.
+
+![](./doc/img/02%20-%20Screenshoot.PNG?raw=true)
+![](./doc/img/ingame%201.PNG?raw=true)
+![](./doc/img/ingame%202.PNG?raw=true)
+
 ***
+Additional Features:
 
-# 3. Read the extracted addresses
-
-Now its possible to read all nesessary values to calculate the projectiles.
-![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/02%20-%20Screenshoot.PNG?raw=true)
-![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/03%20-%20Screenshoot.PNG?raw=true)
-
-***
-
-## Gamememory-Dependencys
-![](https://github.com/CarlKuhligk/ShellShockLiveRuler/blob/main/Overview%20of%20game%20dependencys.png?raw=true)
-
-***
-
-Some things that can be implemented:
-1. [ ] create all projectiles for all the different flight behaviors (currently i have only the "normal" behavior implemented, multiple traces are possible)
-2. [ ] enable auto-aim to deal maximum damage
-3. [ ] finish implementing bouncing
-4. [ ] find obstacles with CheatEngine
-5. [ ] take obstacles in to account (rebounce)
-6. [ ] find blackholes with CheatEngine
-7. [ ] take blackholes in to account
-8. [ ] find portals with CheatEngine
-9. [ ] take portals in to account
-10. [ ] implement speedhack (possible with cheatengine ;))
+1. [ ] Create all projectiles for all the different flight behaviors (currently, only the "normal" behavior is implemented; multiple trajectories are possible).
+2. [ ] Enable auto-aim to deal maximum damage.
+3. [ ] Finish implementing bouncing.
+4. [ ] Find obstacles with CheatEngine.
+5. [ ] Take obstacles into account (rebounce).
+6. [ ] Find black holes with CheatEngine.
+7. [ ] Take black holes into account.
+8. [ ] Find portals with CheatEngine.
+9. [ ] Take portals into account.
+10. [ ] Implement speedhack (possible with CheatEngine).
